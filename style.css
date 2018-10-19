@@ -75,6 +75,22 @@ main #container #boxOne {
     
 }
 
+.titre_categories button {
+    background-image: linear-gradient(to right, #4c7674, #7cbba0);
+    border-radius: 50%;
+    height: 40px;
+    width: 125px;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+
+}
+
 main #container #boxOne h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3.5em;
@@ -117,6 +133,19 @@ main #container #boxTwo section .categories img {
     border-radius: 50%;
 }
 
+main #container #boxTwo section .categories button {
+    background-image: linear-gradient(to right, #004360, #7cbba0);
+    border-radius: 50%;
+    height: 40px;
+    width: 125px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
 main #container #boxThree {
     border: 2px solid black;
     height: 200px;
@@ -126,6 +155,7 @@ main #container #boxThree {
 
 main #container #boxSixth {
     background-color: #a7fae6;
+    padding-bottom: 10px;
 }
 
 
