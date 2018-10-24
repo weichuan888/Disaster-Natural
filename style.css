@@ -10,89 +10,74 @@ body, html {
     padding: 0 auto;
     overflow-x : hidden;
     font-family: 'Maven Pro', sans-serif;
- 
 }
 header {
     position: fixed;
     top: 0;
-    
-
 }
 
 #logoWeb {
-   /*  float: left; */
-/*    text-align: center;
- */   margin: 20px;
+    margin: 20px;
 }
 
 #nav-main {
     display: none;
-/*     background-color: white;
- */    /* opacity: 0.5; */
 }
+
 nav {
     width: 100%;
     height: 100%;
 }
+
 nav div {
-    /* float: right; */
-/*     padding-top: 50px;
- */    margin-bottom: 10px;
+    margin-bottom: 10px;
     display: block;
 }
+
 nav div ul {
     width: 215px;
     padding-left: 17px;
 }
+
 nav div ul li {
-   /*  width: 150px; */
     height: 40px;
     text-align: center;
     padding-top: 5px;
     padding-left: 3px;
     padding-right: 3px;
     padding-bottom: 5px;    
-   /*  float: left;
-    margin-right: 35px; */
     list-style: none;
     color: white;
-    background-color: black;
+    background-color: #00a7a0;
     border: 2px solid black;
     font-size: 1.2em;
-    /* margin: 10px; */
     margin-right: 45px;
     margin-top: 5px;
 }
 
 main #container #boxOne {
     text-align: center;
-    background: url(sky3.jpg) no-repeat center;
+    background: url(pictures/sky3.jpg) no-repeat center;
     background-size: cover;
     position: relative;
     height: 100vh;
     z-index: -1;
     
 }
-/* main #container #boxOne img {
-    width: 100vw;
-    display: block;
-    opacity: 0.7;
-    
-} */
 
 .titre_categories h2 {
     text-align: center;
     font-size: 1.8em;
     margin: 20px;
 }
+
 .titre_categories p {
     text-align: center;
     font-size: 1em;
     margin-left: 50px;
     margin-right: 50px;
     display: block;
-    color:white;
-    
+    color:white;    
 }
 .titre_categories p span {
     color: #4c7674;
@@ -111,7 +96,6 @@ main #container #boxOne {
     margin-top: 20px;
     border: 1px solid black;
     box-shadow: 2px 2px 2px black;
-
 }
 
 main #container #boxOne h1 {
@@ -121,10 +105,9 @@ main #container #boxOne h1 {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-/*     margin-top: 10px;
- */    
+    color: white;  
 }
+
 main #container #boxOne p {
     text-align: center;
     position: absolute;
@@ -133,22 +116,24 @@ main #container #boxOne p {
     left: 50%;
     transform: translate(-50%, 0);
     font-size: 1.2em;
-
+    font-weight: 550;
 }
 
 main #container #boxTwo section .categories {
-    /* border: 2px solid black; */
     width: 20%;
     display: inline-block;
     text-align: center;
     margin-left: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
 main #container #boxTwo section .categories h2 {
     margin-bottom: 2%;
+    border: 2px solid black;
+    border-color: #00a7a0;
+    border-radius: 4%;
+    color: #00a7a0;
 }
 main #container #boxTwo section .categories img {
     border-radius: 50%;
@@ -165,30 +150,123 @@ main #container #boxTwo section .categories button {
     text-align: center;
 }
 
-
-
 main #container #boxThree {
     background-color:#00a7a0;
-    background: url(map4.jpg) no-repeat center;
-    background-size: cover;
-    position: relative;
-    height: 600px;
-   
 }
 
-main #container #boxThree .titre_categories {
-    height: 200px;
+main #container #boxThree .histoire {
+    height: 400px;
+    width: 100%;
+}
+
+main #container #boxThree .histoire h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 30px;
+}
+
+main #container #boxThree .histoire img {
+    float: left;
+    text-align: center;
+    display: block;
+    margin-left: 18%;
+    width: 400px;
+    margin-top: 3%;
+}
+
+main #container #boxThree .histoire_texte{
+       color: white;
+       display: block;
+       margin-top: 5%;
+       margin-right: 10px;
+       width: 45%;
+}
+
+main #container #boxThree .histoire_texte button {
+    width: 18%;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 0.9em;
+    margin-top: 35px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #004360, #7cbba0);
+    color: white;
+    font-weight: bold;
 }
 
 main #container #boxSixth {
-    background-color: #00a7a0;
-    padding-bottom: 10px;
+     padding-bottom: 10px;
+    width: 100%;
+}
+main #container #boxSixth h2 {
+    color: #00a7a0;
+    font-size: 2em;
+    font-weight: bold;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: justify;
+    padding-top: 30px;
 }
 
-
+main #container #boxSixth .question_reponses_texte p {
+    color: #00a7a0;
+    margin-top: 2%;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    text-align: justify
+   
+}
+main #container #boxSixth .question_reponses_texte button {
+    width: 8%;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 0.9em;
+    margin-top: 35px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #004360, #7cbba0);
+    color: white;
+    font-weight: bold;
+}
 
 footer {
     height: 100px;
     background-color: black;
     color: white;
+}
+
+footer .LastBox {
+    text-align: center;
+}
+footer .LastBox h5 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer .LastBox i {
+    margin-right: 20px;
+}
+
+
+.popup {
+    background-color: aliceblue;
+    position: fixed;
+    display: none;
+    z-index: 5000;
+    width: 80%;
+    height: 80%;
+    left: 0;
+    top: 0;
+  
 }
